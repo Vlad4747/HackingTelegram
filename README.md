@@ -26,11 +26,9 @@ pkg install php
 apt install python-pip
 git clone https://github.com/Vlad4747/HackingTelegram
 cd HackingTelegram
-pip3 install telethon
+pip3 install pyrogram
 pip3 install telegram
-pip3 install telegram-bot
-pip uninstall python-telegram-bot telegram
-pip install python-telegram-bot
+pip3 install telebot
 python main.py
 ```
 Installation Successful......
